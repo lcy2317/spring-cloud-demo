@@ -7,3 +7,11 @@ server:
 spring:
   application:
     name: lcy-server
+
+feign:
+  hystrix:
+    enabled: true
+
+ribbon:
+  eureka:
+    enabled: true
